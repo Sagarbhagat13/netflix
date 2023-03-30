@@ -11,7 +11,7 @@ function App() {
      <Nav />
      <Banner url={requests.fetchNetflixOriginals} />
       
-      <Row title="Trending now" url={requests.fetchTrending} isLargeRow  />
+      <Row title="Trendings now" url={requests.fetchTrending} isLargeRow  />
       <Row title="Orignals" url={requests.fetchNetflixOriginals}  />
       <Row title="Top Rated" url={requests.fetchTopRated}  />
       <Row title="Comedy Movies" url={requests.fetchComedyMovies}  />
